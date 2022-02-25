@@ -1,0 +1,43 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --header-bg:#212529;
+    --gray:gray;
+    --red:red;
+}
+
+.bg-purple{
+    background-color: var(--purple);
+}
+.bg-header{
+    background-color: var(--header-bg);
+}
+#meter_wrapper
+{
+display: none;
+ border:1px solid var(--gray);
+ margin-top:20px;
+ width:200px;
+ height:5px;
+ border-radius:3px;
+}
+#meter
+{
+ width:0px;
+ height:5px;
+ border-radius:
+}
+#pass_type
+{
+ font-size:14px;
+ margin-top:20px;
+ margin-bottom:20px;
+ text-align:center;
+ color:var(--gray);
+}
+sup.required{
+    color: var(--red);
+}
+
+

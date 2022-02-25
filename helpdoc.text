@@ -1,0 +1,23 @@
+# Project Overview
+Project build on CodeIgniter 4 as this is a current version.Developed on php 7.4 version and mysql database server 8.0
+
+#Database
+Database file attached in the code as test_task_ci.sql. database collection name :utf8mb4_unicode_ci
+
+#Project Task
+We have developed a user login and registration module with the user dashboard and landing page.
+All the page navigation is working and connected. We have created 6 test cases for each functionality
+
+#PHPunit
+We have used the PHPunit package 9 version.
+
+Check Unit Test Case Status
+command run : vendor/bin/phpunit
+
+#Project Setup and Run
+If you do not find the .env file , just rename the .env-example to .env.
+
+Change the database credentials in the .env file.
+
+to start the server
+command run : php spark serve
